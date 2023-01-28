@@ -46,9 +46,9 @@ $(document).ready(() => {
       alert("Name and contact info must be unique!");
     else {
       database.push(data);
+      this.reset();
     }
     populate(database);
-    this.reset();
     e.preventDefault();
   });
 
