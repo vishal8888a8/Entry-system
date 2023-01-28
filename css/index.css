@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+
+* {
+  margin: 0%;
+  font-family: "Outfit", sans-serif;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.12rem;
+  background-color: #6f1ab6;
+}
+
+.form_item {
+  width: 100%;
+}
+
+.form_item_input {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.phone {
+  width: 100%;
+}
+
+.form_item > p {
+  color: #ddd;
+  margin-bottom: 0.5rem;
+}
+
+.form_item > button {
+  border: none;
+  background-color: #ff0032;
+  color: #ddd;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  width: 100%;
+  font-size: medium;
+}
+
+/* **** */
+
+.two_ip {
+  display: flex;
+  justify-content: space-between;
+}
+.input_1 {
+  width: 45%;
+}
+
+.input_2 {
+  width: 45%;
+}
