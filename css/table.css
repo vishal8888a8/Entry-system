@@ -69,9 +69,20 @@
   border: solid 0.15rem #3d1766;
   width: 50%;
   padding: 0.6rem;
+  padding-left: 2rem;
 }
 
 #search:focus,
 input:focus {
   outline: none;
+}
+
+/* icon */
+.icon_search i {
+  position: absolute;
+}
+
+.icon {
+  padding: 0.7rem;
+  min-width: 2.5rem;
 }
