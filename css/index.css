@@ -60,3 +60,8 @@ form {
 .input_2 {
   width: 45%;
 }
+
+span {
+  color:rgb(252, 2, 2);
+  font-weight: bolder;
+}
