@@ -25,6 +25,7 @@
 .students th {
   background-color: #3d1766;
   color: #ddd;
+  border: none;
 }
 
 .students tbody tr:nth-child(odd) {
@@ -37,6 +38,8 @@
 
 .table_list {
   height: 20rem;
+  border: solid 0.15rem #3d1766;
+  border-top: none;
   overflow-x: scroll;
 }
 
@@ -68,6 +71,7 @@
   padding: 0.6rem;
 }
 
-#search:focus,input:focus {
+#search:focus,
+input:focus {
   outline: none;
 }
